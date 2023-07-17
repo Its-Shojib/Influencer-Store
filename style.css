@@ -1,4 +1,35 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@400;600;700&display=swap');
+
+
+* {
     padding: 0px;
     margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.nav-title {
+    color: #3A3A3A;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 10px 20px;
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
 }
