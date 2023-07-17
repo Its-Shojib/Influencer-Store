@@ -240,9 +240,12 @@ footer ul li a {
         flex-direction: column-reverse;
     }
     .header-text {
-        width: 95%; 
+        width: 90%; 
         padding: 10px;
         text-align: center;
+    }
+    .header-title{
+        font-size: 2rem;
     }
     .header-img {
         width: 80%;
@@ -251,5 +254,42 @@ footer ul li a {
     .header-img img {
         width: 95%;
         background-size: cover;
+    }
+    .sponsor {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 10px 10px;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .sponsor img{
+        width: 80%;
+    }
+    .card-box {
+        padding: 0px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .see-more {
+        position: relative;
+        padding:10px 30px;
+    }
+    .product {
+        padding: 30px 0px;
+        gap: 50px;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .product-text{
+        text-align: center;
+        padding: 10px;
+    }
+    .product-title {
+        font-size: 2rem;
+    }
+    .product-img img{
+        width: 90%;
+        padding: 15px;
     }
 }
