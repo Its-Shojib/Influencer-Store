@@ -21,14 +21,15 @@
 }
 
 .navbar ul {
-    display: flex;
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
     align-items: center;
-    justify-content: space-around;
+    justify-content:space-evenly;
 }
 
 .navbar li {
     list-style: none;
-    padding: 10px 20px;
+    padding:10px;
     color: #3A3A3A;
     font-size: 1rem;
     font-weight: 600;
@@ -216,4 +217,39 @@ footer ul li a {
     text-decoration: none;
     font-size: 1rem;
     color: #FFF;
+}
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px){
+    .navbar {
+        padding-top: 20px;
+        flex-direction: column; 
+    }
+    .navbar ul {
+        grid-template-columns: repeat(3,1fr);
+    }
+    .navbar li {
+        padding: 10px;    
+    }
+    .header {
+        align-items:center;
+        justify-content:center;
+        gap: 30px;
+        flex-direction: column-reverse;
+    }
+    .header-text {
+        width: 95%; 
+        padding: 10px;
+        text-align: center;
+    }
+    .header-img {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .header-img img {
+        width: 95%;
+        background-size: cover;
+    }
 }
