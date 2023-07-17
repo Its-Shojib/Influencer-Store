@@ -25,10 +25,60 @@
     align-items: center;
     justify-content: space-around;
 }
+
 .navbar li {
     list-style: none;
     padding: 10px 20px;
     color: #3A3A3A;
     font-size: 1rem;
     font-weight: 600;
+}
+
+.header {
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+.header-text {
+    width: 50%;
+    padding-left: 200px;
+}
+
+.header-title {
+    color: #3A3A3A;
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+.small-text{
+    max-width: 500px;
+}
+
+.btn {
+    border: none;
+    border-radius: 41px;
+    background: #E02C6D;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.header-img {
+    width: 50%;
+}
+.header-img img{
+    background-image: url('./images/Circle\ design.svg');
+}
+
+.sponsor{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 20px 250px;
 }
